@@ -52,7 +52,6 @@ class School:
 # print(Roku)
 # print(Khalid)
 
-
 phitron = School('Phitronik')
 phitron.enroll('Zara', 5200)
 phitron.enroll('Musfik', 8000)
