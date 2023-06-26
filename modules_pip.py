@@ -32,9 +32,6 @@ print("Rocky")
 
 
 
-
-
-
 # Variable and Data types
 #variable is like a container
 """ 
@@ -60,12 +57,10 @@ print(c)
 # print(list1)
 
 
-
 # Tuple: A tuple is an ordered collection of data with elements separated by a comma and enclosed within parentheses. Tuples are immutable(Not changable) and can not be modified after creation.
 
 # tuple1 = (("parrot", "sparrow"), ("Lion", "Tiger"))
 # print(tuple1)
-
 
 
 
