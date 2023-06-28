@@ -3,7 +3,6 @@
 
 Tuples are immutable, hence if you want to add, remove or change tuple items, then first you must convert the tuple to a list. Then perform operation on that list and convert it back to tuple.
 
-
 """
 
 
@@ -20,4 +19,11 @@ print(countries)
 
 """
 
+# Tuple Methods:
+
+tuple1 = (0, 1, 2, 3, 2, 3, 1, 3, 2)
+# res = tuple1.index(3)
+res = tuple1.index(3, 2, 6) # (key, start, end)
+
+print('First occurrence of 3 is: ',res)
 
