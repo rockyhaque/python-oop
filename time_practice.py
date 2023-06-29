@@ -1,10 +1,3 @@
-#This project will show to see your local time
-
-import time
-t = time.strftime('%H:%M:%S')
-hour = int(time.strftime('%H'))
-hour = int(input("Enter hour: "))
-print(hour)
 
 if(hour>=0 and hour<12):
     print("Good Morning!")
