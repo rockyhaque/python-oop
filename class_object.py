@@ -66,3 +66,41 @@ b.occupation = "HR"
 a.info()
 b.info()
 c.info()
+
+
+print('-------New Program From Programiz-------')
+
+#define a class
+class Bike:
+   name =''
+   gear = 0
+
+#create object of class
+bike1 = Bike()
+
+#access attributes and assign new value
+bike1.gear = 21
+bike1.name = "R15"
+
+print(f'Name: {bike1.name}\nGear: {bike1.gear}')
+
+# * Create Multiple Objects of Python Class
+
+
+# define a class
+class Employee:
+    # define an attribute
+    employee_id = 0
+
+# create two objects of the Employee class
+employee1 = Employee()
+employee2 = Employee()
+
+# access attribute using employee1
+employee1.employee_id = 2001
+print(f'Employee ID: {employee1.employee_id}')
+
+# access attributes using employee2
+employee2.employeeID = 1002
+print(f"Employee ID: {employee2.employeeID}")
+
